@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tempat Wisata Kuliner Broadway Alam Sutra</title>
+	<meta name="author" content="Zahid Sholahuddin">
+	<style type="text/css">
+		html{
+			scroll-behavior: smooth;
+		}
+		body{
+            background-color: rgb(223, 251, 11);
+			margin: 0px;
+			font-family: Verdana;
+		}
+		nav{
+			position: fixed;
+			background-color: rgba(220, 190, 20, 0.845);
+			margin: 15px;
+			border-radius: 5px;
+			 width: calc(100% - 30px)
+		}
+		.menu-container {
+		  display: flex;
+		  align-items: center;
+		}
+
+		.menu-container h1 {
+		  margin-right: auto;
+		  margin-left: 20px;
+		}
+		.menu {
+			list-style-type: none;
+			margin: 0;
+			padding: 20px;
+			display: flex;
+		    justify-content: space-between;
+		}
+		.menu li{
+			display: block;
+			color: #333;
+			text-align: center;
+			text-decoration: none;
+		}
+		.menu li a{
+			padding: 15px 30px;
+			color: #333;
+			text-decoration: none;
+		}
+		.menu li a:hover {
+			border-radius: 5px;
+			background-color: #ddd;
+		}
+		section h1{
+			text-align: center;
+		}
+		.container{
+			margin: 3%;
+		}
+		#tentang{
+			padding-top: 100px;
+		}
+		#tentang p{
+			text-align: center;
+		}
+		.foto{
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		img{
+			width: 600px;
+			max-height: 400px;
+			padding: 10px;
+		}
+		#video, #audio{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<div class="menu-container">
+			<h1>Broadway Alam Sutra</h1>
+			<ul class="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="kontak.html">Tentang</a></li>
+				<li><a href="#foto">Foto</a></li>
+				<li><a href="#video">Video</a></li>
+				<li><a href="#audio">Audio</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section id="tentang">
+		<div class="container">
+			<h1>Selamat Datang di Tempat Wisata Kuliner Broadway Alam Sutra</h1>
+			<p>Selamat datang Di tempat Wisata Kuliner Dimana Kalian Bisa Menikmati Makanan Dengan Harga Terjangkau Dan Tempat Yang Aestetic </p>
+		</div>
+	</section>
+	<section id="foto">
+		<div class="container">
+			<h1>Foto</h1>
+			<div class="foto">
+				<img src="broadwayp.jpeg">
+				<img src="broadwayp2.jpg">
+				<img src="broadwayp3.jpg">
+				<img src="broadwayp4.jpg">
+			</div>
+		</div>
+	</section>		
+	<section id="video">
+		<div class="container">
+			<h1>Video</h1>
+		    <video controls width="640" height="360">
+		        <source src="cipivid.mp4" type="video/mp4">
+		        Your browser does not support the video tag.
+		    </video>
+		</div>
+	</section>
+
+	<section id="audio">
+		<div class="container">
+			<h1>Audio</h1>
+			<audio id="borobudur" controls loop>
+		        <source src="cipicipii.mp3" type="audio/mp3">
+		        Your browser does not support the audio tag.
+		    </audio>
+		</div>
+	</section>
+</body>
+</html>
